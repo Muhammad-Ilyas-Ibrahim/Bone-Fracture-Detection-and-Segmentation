@@ -26,12 +26,12 @@ These changes enhance data integrity and model performance for fracture detectio
 - **Updated Dataset**: [Muhammad Ilyas](https://github.com/Muhammad-Ilyas-Ibrahim), for the research paper "ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation"
 
 ## Citation
-If using these scripts or the processed dataset, please cite:
+If using this dataset, please cite:
 - Original Dataset:
   ```
   Abedeen, I., Rahman, M. A., Prottyasha, F. Z., Ahmed, T., Chowdhury, T. M., & Shatabda, S. (2023). FracAtlas: A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs. Figshare. https://figshare.com/articles/dataset/The_dataset/22363012?file=43283628
   ```
 - Updated Dataset:
   ```
-  Ilyas, M. (2025). ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation.
+  Ilyas, M. (2025). FracAtlas: FracAtlas: Bone Fracture Detection & Segmentation. Kaggle. 
   ```
