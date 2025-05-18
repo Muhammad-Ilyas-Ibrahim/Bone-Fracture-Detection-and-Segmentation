@@ -1,7 +1,7 @@
 # Bone Fracture Dataset Preprocessing Scripts
 
 ## Overview
-This repository contains scripts used to preprocess the [FracAtlas: A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs](https://figshare.com/articles/dataset/The_dataset/22363012?file=43283628) for the research paper "ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation" by Muhammad Ilyas. The scripts address corrupted images and class imbalance in the original dataset, which is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+This repository contains scripts used to preprocess the [FracAtlas: A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs](https://figshare.com/articles/dataset/The_dataset/22363012?file=43283628) for the research paper "ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation" by [Muhammad Ilyas](https://github.com/Muhammad-Ilyas-Ibrahim). The scripts address corrupted images and class imbalance in the original dataset, which is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Repository Contents
 - **`remove_corrupted_images.py`**: Removes 59 corrupted images from the non-fractured class (originally 3,366 images, reduced to 3,307) and updates `dataset.csv`.
@@ -23,7 +23,7 @@ These changes enhance data integrity and model performance for fracture detectio
 
 ## Credits
 - **Original Dataset**: FracAtlas by [Iftekharul Abedeen](https://figshare.com/authors/Iftekharul_Abedeen/14603630), Md. Ashiqur Rahman, Fatema Zohra Prottyasha, Tasnim Ahmed, Tareque Mohmud Chowdhury, and Swakkhar Shatabda.
-- **Updated Dataset**: Muhammad Ilyas, for the research paper "ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation"
+- **Updated Dataset**: [Muhammad Ilyas](https://github.com/Muhammad-Ilyas-Ibrahim), for the research paper "ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation"
 
 ## Citation
 If using these scripts or the processed dataset, please cite:
