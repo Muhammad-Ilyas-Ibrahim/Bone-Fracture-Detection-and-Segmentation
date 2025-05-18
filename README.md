@@ -7,7 +7,8 @@ This repository contains scripts used to preprocess the [FracAtlas: A Dataset fo
 - **`remove_corrupted_images.py`**: Removes 59 corrupted images from the non-fractured class (originally 3,366 images, reduced to 3,307) and updates `dataset.csv`.
 - **`augment_data.py`**: Augments fractured images from 717 to 3,000 using 90° rotation, horizontal flip, 0.2 shear, and 0.8 brightness adjustment, updating `dataset.csv'and `COCO_fracture_masks.json`.
 - **`corrupted_images.txt`**: Lists the 59 corrupted image filenames removed from the non-fractured class.
-
+- **`augmentation_logs.log`**: Logs of augmentation operations.
+  
 ## Purpose
 The scripts improve the FracAtlas dataset by:
 - Removing 59 corrupted non-fractured images that caused training errors.
