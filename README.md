@@ -31,7 +31,7 @@ If using these scripts or the processed dataset, please cite:
   ```
   Abedeen, I., Rahman, M. A., Prottyasha, F. Z., Ahmed, T., Chowdhury, T. M., & Shatabda, S. (2023). FracAtlas: A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs. Figshare. https://figshare.com/articles/dataset/The_dataset/22363012?file=43283628
   ```
-- Research Paper:
+- Updated Dataset:
   ```
   Ilyas, M. (2025). ResNet50-Driven Bone Fracture Detection with Attention-Augmented U-Net Segmentation.
   ```
